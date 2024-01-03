@@ -1,9 +1,9 @@
-login_url = 'http://sample.data.crea.ca/Login.svc/Login'
-#login_url = 'http://data.crea.ca/Login.svc/Login'
-username = 'CXLHfDVrziCfvwgCuL8nUahC'
-password = 'mFqMsCSPdnb5WO1gpEEtDCHH'
+#login_url = 'http://sample.data.crea.ca/Login.svc/Login'
+login_url = 'http://data.crea.ca/Login.svc/Login'
+username = 'GqkxUu7MBSJMfgCgvDpzL7iE'
+password = '08tH7JGbuRh16VqrMWmuugQF'
 
-s3_reader = False #Enable S3, if Disabled Local file System will be used.
+s3_reader = True #Enable S3, if Disabled Local file System will be used.
 
 SESSION_LISTINGS_COUNT=100
 
