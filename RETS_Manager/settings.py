@@ -16,7 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 #Deployment with docker uses PostgreSQL container.
-DOCKER=False
+DOCKER=True
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
@@ -25,7 +25,7 @@ DOCKER=False
 SECRET_KEY = 'f(38hpt!oc982r75_ly$o&f(e1m#&-k8!#=r!605ygm94jfml4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['web','127.0.0.1']
 
