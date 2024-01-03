@@ -10,7 +10,7 @@ LOCK_EXPIRE = 60* 60
 @ddf_app.on_after_configure.connect
 def setup_periodic_tasks(sender, **kwargs):
     ##set update time in seconds here.
-    sender.add_periodic_task(24*60*60 , update_ddf.s(), name="update_ddf")
+    sender.add_periodic_task(4*60*60 , update_ddf.s(), name="update_ddf")
 
 @ddf_app.task
 def update_ddf():
